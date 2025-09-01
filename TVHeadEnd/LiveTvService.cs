@@ -307,7 +307,7 @@ namespace TVHeadEnd
                 livetvasset.SupportsDirectStream = false;
                 livetvasset.RequiresClosing = true;
                 livetvasset.SupportsProbing = false;
-                livetvasset.Container = "mpegts";
+                livetvasset.UseMostCompatibleTranscodingProfile = true;
                 livetvasset.RequiresOpening = true;
                 livetvasset.IsInfiniteStream  = true;
 
@@ -343,7 +343,7 @@ namespace TVHeadEnd
                     AnalyzeDurationMs = 2000,
                     SupportsDirectStream = false,
                     SupportsProbing = false,
-                    Container = "mpegts",
+                    UseMostCompatibleTranscodingProfile = true,
                     MediaStreams = new List<MediaStream>
                     {
                         new MediaStream
